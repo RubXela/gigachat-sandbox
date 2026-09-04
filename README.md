@@ -49,7 +49,7 @@
 ---
 
 ## 📁 Структура проекта
-
+'''
 gigachat-sandbox/
 ├── README.md                 # Этот файл
 ├── .gitignore                # Исключения для Git
@@ -74,11 +74,12 @@ gigachat-sandbox/
     └── static/
         ├── style.css         # Стили
         └── script.js         # Клиентская логика
-
+'''
 # 🚀 Быстрый старт (веб-бот)
 ## 1. Клонируйте репозиторий
 
 git clone https://github.com/RubXela/gigachat-sandbox.git
+
 cd gigachat-sandbox/web-bot
 
 ## 2. Создайте виртуальное окружение
