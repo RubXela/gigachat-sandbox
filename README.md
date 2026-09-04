@@ -31,6 +31,7 @@
 
 ## 📁 Структура проекта
 
+```text
 gigachat-sandbox/
 ├── README.md                 # Этот файл
 ├── .gitignore                # Исключения для Git
