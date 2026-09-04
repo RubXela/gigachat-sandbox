@@ -1,0 +1,16 @@
+{
+  "name": "gigachat-sandbox",
+  "version": "1.0.0",
+  "description": "Песочница для экспериментов с GigaChat API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["gigachat", "sber", "ai", "llm"],
+  "author": "Sber500xDisrupt participant",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "gigachat": "^1.0.0"
+  }
+}
