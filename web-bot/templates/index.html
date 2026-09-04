@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Голосовой помощник GigaChat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 Голосовой помощник</h1>
+            <p class="subtitle">на базе GigaChat</p>
+            <div class="header-controls">
+                <button class="tts-btn" id="ttsBtn" title="Озвучка включена">🔊</button>
+            </div>
+        </header>
+
+        <div class="chat-window" id="chatWindow">
+            <div class="message bot">
+                <div class="avatar">🤖</div>
+                <div class="bubble">Привет! Спроси меня о чём угодно. Или просто нажми на микрофон.</div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <button class="mic-btn" id="micBtn" title="Нажмите и удерживайте для записи">🎤</button>
+            <input type="text" id="userInput" placeholder="Напишите сообщение..." />
+            <button class="send-btn" id="sendBtn">➤</button>
+        </div>
+        <p class="hint" id="hint">🎙️ Нажмите и удерживайте для записи</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
