@@ -49,7 +49,7 @@
 ---
 
 ## 📁 Структура проекта
-'''
+
 gigachat-sandbox/
 ├── README.md                 # Этот файл
 ├── .gitignore                # Исключения для Git
@@ -74,7 +74,7 @@ gigachat-sandbox/
     └── static/
         ├── style.css         # Стили
         └── script.js         # Клиентская логика
-'''
+
 # 🚀 Быстрый старт (веб-бот)
 ## 1. Клонируйте репозиторий
 
@@ -84,8 +84,10 @@ cd gigachat-sandbox/web-bot
 
 ## 2. Создайте виртуальное окружение
 python -m venv .venv
+
 source .venv/bin/activate  # Linux/Mac
 ## или
+
 .venv\Scripts\activate     # Windows
 ## 3. Установите зависимости
 
@@ -108,9 +110,11 @@ GIGACHAT_AUTH_KEY=ваш_ключ_авторизации
 Создайте проект → выберите GigaChat API.
 Сгенерируйте Authorization key.
 Скопируйте ключ в .env.
+
 ## 5. Запустите приложение
 
 python app.py
+
 ## 6. Откройте в браузере
 
 Перейдите по адресу:
