@@ -51,30 +51,36 @@
 ## 📁 Структура проекта
 
 gigachat-sandbox/
-├── README.md                 # Этот файл
-├── .gitignore                # Исключения для Git
-├── .env.example              # Шаблон для ключей
-├── python/                   # Базовые скрипты для тестов
-│   ├── basic_request.py
-│   ├── prompts_test.py
-│   ├── synthetic_requests.txt
-│   └── requirements.txt
-├── nodejs/                   # Примеры на Node.js
-│   ├── index.js
-│   └── package.json
-├── curl-examples/            # Прямые запросы через curl
-│   ├── get_token.sh
-│   └── chat_request.sh
-└── web-bot/                  # ⭐ Веб-приложение (основное)
-    ├── app.py                # Flask-сервер
-    ├── requirements.txt      # Зависимости
-    ├── .env                  # Ключи доступа (не в репозитории!)
-    ├── templates/
-    │   └── index.html        # Главная страница
-    └── static/
-        ├── style.css         # Стили
-        └── script.js         # Клиентская логика
-
+|-- README.md                 # Этот файл
+|-- .gitignore                # Исключения для Git
+|-- .env.example              # Шаблон для ключей
+|
+|-- python/                   # Базовые скрипты для тестов
+|   |-- basic_request.py
+|   |-- prompts_test.py
+|   |-- synthetic_requests.txt
+|   `-- requirements.txt
+|
+|-- nodejs/                   # Примеры на Node.js
+|   |-- index.js
+|   `-- package.json
+|
+|-- curl-examples/            # Прямые запросы через curl
+|   |-- get_token.sh
+|   `-- chat_request.sh
+|
+`-- web-bot/                  # ⭐ Веб-приложение (основное)
+    |-- app.py                # Flask-сервер
+    |-- requirements.txt      # Зависимости
+    |-- .env                  # Ключи доступа (не в репозитории!)
+    |
+    |-- templates/
+    |    `-- index.html        # Главная страница
+    |
+    `-- static/
+        |-- style.css         # Стили
+        `-- script.js         # Клиентская логика
+        
 # 🚀 Быстрый старт (веб-бот)
 ## 1. Клонируйте репозиторий
 
